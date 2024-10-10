@@ -5,12 +5,16 @@ body {
     flex-direction: column;
 }
 
-.header {
-    padding: 15px 400px 100px;
+.header,
+.footer {
     background-color: #1f2937;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+}
+
+.header {
+    padding: 15px 400px 100px;
+    flex-direction: column;
     align-items: stretch;
     gap: 80px;
 }
@@ -61,8 +65,13 @@ body {
 }
 
 .header .links li a,
-.header .secondary-text {
+.secondary-text,
+.footer {
     color: #e5e7eb;
+}
+
+.header .links li a,
+.secondary-text {
     font-size: 18px;
 }
 
@@ -156,10 +165,13 @@ button.sign-up {
 }
 
 .sign-up .inner .secondary-text {
-    color: #e5e7eb;
     font-size: 18px;
 }
 
 .sign-up .inner button.sign-up {
     border: 2px solid #ffffff;
+}
+
+.footer {
+    padding: 30px 0;
 }
