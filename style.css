@@ -66,14 +66,17 @@ body {
     font-size: 18px;
 }
 
-.header button.sign-up {
+button.sign-up {
     padding: 6px 20px;
-    border: none;
     border-radius: 5px;
     background-color: hsl(220deg 90% 60%);
     color: #ffffff;
     font-weight: 700;
     font-family: Roboto, sans-serif;
+}
+
+.header button.sign-up {
+    border: none;
 }
 
 .container-hero .image-placeholder {
@@ -131,4 +134,32 @@ body {
     color:#1f2937;
     font-weight: 700;
     text-align: end;
+}
+
+.sign-up {
+    padding: 100px 300px;
+}
+
+.sign-up .inner {
+    padding: 40px 100px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up .inner .main-text {
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sign-up .inner .secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.sign-up .inner button.sign-up {
+    border: 2px solid #ffffff;
 }
