@@ -114,3 +114,21 @@ body {
     text-align: center;
     color: #747981;
 }
+
+.quote {
+    padding: 100px 400px 100px;
+    background-color: #e5e7eb;
+}
+
+.quote .main-text {
+    color: #4e5866;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote .secondary-text {
+    color:#1f2937;
+    font-weight: 700;
+    text-align: end;
+}
